@@ -1,0 +1,47 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    },
+    "disableYoloMode": true,
+    "folderTrust": {
+      "enabled": true
+    },
+    "environmentVariableRedaction": {
+      "enabled": true
+    }
+  },
+  "general": {
+    "preferredEditor": "antigravity",
+    "previewFeatures": true,
+    "sessionRetention": {
+      "enabled": true
+    }
+  },
+  "ui": {
+    "showStatusInTitle": true,
+    "hideBanner": true,
+    "footer": {
+      "hideContextPercentage": false
+    },
+    "hideFooter": true,
+    "showMemoryUsage": true,
+    "showCitations": true,
+    "showModelInfoInChat": true,
+    "hideWindowTitle": true,
+    "useAlternateBuffer": true,
+    "theme": "ANSI"
+  },
+  "ide": {
+    "enabled": true,
+    "hasSeenNudge": true
+  },
+  "experimental": {
+    "plan": true
+  },
+  "tools": {
+    "shell": {
+      "showColor": true
+    }
+  }
+}
