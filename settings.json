@@ -1,47 +1,70 @@
 {
+  "agents": {
+    "browser": {
+      "confirmSensitiveActions": true
+    }
+  },
+  "billing": {
+    "overageStrategy": "never"
+  },
+  "experimental": {
+    "contextManagement": true,
+    "directWebFetch": true,
+    "modelSteering": true,
+    "topicUpdateNarration": true,
+    "worktrees": false
+  },
+  "general": {
+    "enableAutoUpdate": false,
+    "enableNotifications": true,
+    "preferredEditor": "vscode"
+  },
+  "ide": {
+    "enabled": true
+  },
+  "model": {
+    "compressionThreshold": 0.3,
+    "name": ""
+  },
   "security": {
+    "allowedExtensions": [],
     "auth": {
       "selectedType": "oauth-personal"
     },
+    "autoAddToPolicyByDefault": true,
     "disableYoloMode": true,
-    "folderTrust": {
-      "enabled": true
-    },
+    "enableConseca": true,
+    "enablePermanentToolApproval": true,
     "environmentVariableRedaction": {
       "enabled": true
-    }
-  },
-  "general": {
-    "preferredEditor": "antigravity",
-    "previewFeatures": true,
-    "sessionRetention": {
-      "enabled": true
+    },
+    "folderTrust": {
+      "enabled": false
     }
   },
   "ui": {
-    "showStatusInTitle": true,
-    "hideBanner": true,
     "footer": {
-      "hideContextPercentage": false
+      "hideContextPercentage": false,
+      "hideSandboxStatus": true,
+      "items": [
+        "workspace",
+        "git-branch",
+        "model-name",
+        "context-used",
+        "quota",
+        "memory-usage",
+        "code-changes",
+        "token-count"
+      ]
     },
-    "hideFooter": true,
-    "showMemoryUsage": true,
-    "showCitations": true,
-    "showModelInfoInChat": true,
+    "hideBanner": true,
     "hideWindowTitle": true,
-    "useAlternateBuffer": true,
-    "theme": "ANSI"
-  },
-  "ide": {
-    "enabled": true,
-    "hasSeenNudge": true
-  },
-  "experimental": {
-    "plan": true
-  },
-  "tools": {
-    "shell": {
-      "showColor": true
-    }
+    "inlineThinkingMode": "full",
+    "loadingPhrases": "tips",
+    "showCitations": true,
+    "showMemoryUsage": true,
+    "showModelInfoInChat": true,
+    "showStatusInTitle": true,
+    "showUserIdentity": false
   }
 }
