@@ -65,6 +65,7 @@
     "showMemoryUsage": true,
     "showModelInfoInChat": true,
     "showStatusInTitle": true,
-    "showUserIdentity": false
+    "showUserIdentity": false,
+    "showHomeDirectoryWarning": false
   }
 }
